@@ -1,0 +1,5 @@
+p[name="name1"] {color: red;}
+p[name="name2"] {color: blue;}
+p[name="name3"] {color: yellow;}
+p[name^= "bacon"] {color: green;}
+p[name$= "bacon"] {color: orange;}
