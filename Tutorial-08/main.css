@@ -1,0 +1,7 @@
+/* all paragraphs that follow a div (have a div as a parent) */
+div > p { color: green; }
+/* all paragraphs that have the body as the parent */
+body > p { color: yellow; }
+/* paragraphs with the same parent, that immediately follow a paragraph with the class bucky */
+p.bucky + p {color: blue; }
+/* you can use a ~ instead of the + to allow skipping of intervening non-matches */
